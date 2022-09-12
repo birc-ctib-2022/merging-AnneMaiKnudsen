@@ -18,8 +18,8 @@ def merge(x: list[int], y: list[int]) -> list[int]:
         if x[i] < y[j]:
             z.append(x[i])
             i+=1
-        elif y[j]>=x[i]:
-            i+=1
+        #elif y[j]>=x[i]:
+            #i+=1
         else:
             z.append(y[j])
             j+=1
